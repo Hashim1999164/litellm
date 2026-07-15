@@ -32240,6 +32240,8 @@ export interface components {
             }[] | null;
             /** Cooldown Time */
             cooldown_time?: number | null;
+            /** Enable Tag Filtering */
+            enable_tag_filtering?: boolean | null;
             /** Fallbacks */
             fallbacks?: {
                 [key: string]: unknown;
